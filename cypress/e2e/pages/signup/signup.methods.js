@@ -1,3 +1,4 @@
+import { CommonPageMethods } from "../common-page/common-page.methods";
 import { SignupElements } from "./signup.elements";
 
 export class SignupMethods{
@@ -17,5 +18,10 @@ export class SignupMethods{
         this.insertUsername(username)
         this.insertPassword(password)
         this.clickSignupButton()
+    }
+
+    //Verifica que se muestre la alerta al registrar usuario
+    static verifySigUpSuccessfulMessageDisplayed(){
+        CommonPageMethods.verifyAlert('Sign up successful.')
     }
 }

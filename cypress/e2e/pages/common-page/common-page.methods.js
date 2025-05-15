@@ -4,6 +4,7 @@ import { CommonPageElements } from "./common-page.elements";
 export class CommonPageMethods{
     //Método que navega la aplicación
     static navigateToDemoBlaze(){
+        cy.clearCookies()
         cy.visit(CommonPageData.url) //La url está en la clase Data
     }
 
@@ -29,5 +30,11 @@ export class CommonPageMethods{
 
     static clickOnSignUpOption(){
         CommonPageElements.topMenu.signUp.click()
+    }
+
+    static verifyAlert(expectedMessage){
+        cy.on('window:alert', (str)=>{
+            expect(str).to.equal(expectedMessage)
+        })
     }
 }
