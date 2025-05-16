@@ -37,4 +37,17 @@ export class CommonPageMethods{
             expect(str).to.equal(expectedMessage)
         })
     }
+
+    //Para generar usuarios random a la hora de probr
+    static generateRandomString(lenght = 10) {
+        let result = "";
+        const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+        const charactersLenght = characters.length;
+        let counter = 0;
+        while (counter < lenght) {
+            result += characters.charAt(Math.floor(Math.random()* charactersLenght))
+            counter += 1;
+        }
+        return result;
+    }
 }
