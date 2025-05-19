@@ -24,4 +24,10 @@ export class SignupMethods{
     static verifySigUpSuccessfulMessageDisplayed(){
         CommonPageMethods.verifyAlert('Sign up successful.')
     }
+
+    //Este método verifica que se muestre una alerta cuando se inicie sesión
+    //con datos inválidos, en este caso un usuario ya existente.
+    static verifyThatThisUserAlredyExistMessageIsDisplay(){
+        CommonPageMethods.verifyAlert('This user already exist.')
+    }
 }
