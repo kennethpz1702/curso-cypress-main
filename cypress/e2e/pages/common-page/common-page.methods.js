@@ -50,4 +50,8 @@ export class CommonPageMethods{
         }
         return result;
     }
+
+    static verifySignedUer(username){
+        CommonPageElements.signedUser.should('have.text', `Welcome ${username}`);
+    }
 }
