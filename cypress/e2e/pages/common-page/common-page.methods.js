@@ -9,7 +9,7 @@ export class CommonPageMethods{
     }
 
     static clickOnHomeOption(){
-        CommonPageElements.topMenu.home.cilck()
+        CommonPageElements.topMenu.home.click()
     }
 
     static clickOnContactOption(){

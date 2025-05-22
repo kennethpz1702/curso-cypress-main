@@ -17,4 +17,8 @@ export class HomeMethods{
     static clickOnProductLink(productName){ //Le hace clik a cualquier producto pero nosotros le debemos pasar el producto.
         HomeElements.product(productName).click()
     }
+
+    static verifyProductDisplayed(productName){
+        HomeElements.product(productName).should('be.visible') //Verifica que un producto se esté mostrando.
+    }
 }
