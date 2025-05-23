@@ -4,7 +4,8 @@ import { CommonPageElements } from "./common-page.elements";
 export class CommonPageMethods{
     //Método que navega la aplicación
     static navigateToDemoBlaze(){
-        cy.clearCookies()
+        cy.clearAllCookies()
+        cy.clearLocalStorage()
         cy.visit(CommonPageData.url) //La url está en la clase Data
     }
 

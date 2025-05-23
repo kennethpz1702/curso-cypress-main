@@ -4,7 +4,7 @@ import { Logger } from "../util/logger";
 import { LoginMethods } from "../pages/login/login.methods";
 import { LoginData } from "../pages/login/login.data";
 
-xdescribe(CommonPageData.testSuites.autenticacion, ()=> {
+describe(CommonPageData.testSuites.autenticacion, ()=> {
     it('Inicio de sesión válido', ()=> {
 
         Logger.stepNumber(1)
