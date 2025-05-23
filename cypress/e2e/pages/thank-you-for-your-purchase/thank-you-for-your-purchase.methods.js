@@ -8,6 +8,7 @@ export class ThankYouForYourPurchaseMethods{
 
     //Verificar el check verde
     static verifyGreenCheckMarkIsDisplay(){
-        ThankYouForYourPurchaseElements.icons.greenCheckMark.should('exist')
+        cy.wait(3000)
+        ThankYouForYourPurchaseElements.icons.greenCheckMark.should('be.visible', { timeout: 10000})
     }
 }

@@ -2,7 +2,7 @@ export class ThankYouForYourPurchaseElements{
     static get buttons(){
         return{
            get ok(){
-            cy.contains('button', 'OK') 
+            return cy.contains('button', 'OK') 
            },
         }
     }
