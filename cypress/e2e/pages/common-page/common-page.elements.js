@@ -23,6 +23,10 @@ export class CommonPageElements{
 
             get signUp(){
                 return cy.get('a[data-target="#signInModal"]')
+            },
+
+            get logOut(){
+                return cy.contains('a', 'Log out')
             }
         }
     }
@@ -31,4 +35,6 @@ export class CommonPageElements{
     static get signedUser(){
         return cy.get('a#nameofuser')
     }
+
+
 }
