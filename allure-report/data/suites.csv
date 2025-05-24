@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","982","Inicio de sesión inválido","","Sat May 24 10:30:09 CST 2025","passed","Sat May 24 10:30:10 CST 2025","","Autenticación","",""
+"","2532","Registro de usuario válido","","Sat May 24 10:30:19 CST 2025","passed","Sat May 24 10:30:22 CST 2025","","Registro","",""
+"","14685","Navegar por categorías","","Sat May 24 10:30:01 CST 2025","passed","Sat May 24 10:30:16 CST 2025","","Catálogo y Compras","",""
+"","1159","Registro de usuario inválido","","Sat May 24 10:30:22 CST 2025","passed","Sat May 24 10:30:23 CST 2025","","Registro","",""
+"","9587","Realizar una compra","","Sat May 24 10:30:23 CST 2025","passed","Sat May 24 10:30:33 CST 2025","","Catálogo y Compras","",""
+"","6038","Inicio de sesión válido","","Sat May 24 10:30:03 CST 2025","passed","Sat May 24 10:30:09 CST 2025","","Autenticación","",""
+"","6626","Agregar producto al carrito.","","Sat May 24 10:30:16 CST 2025","passed","Sat May 24 10:30:23 CST 2025","","Catálogo y Compras","",""

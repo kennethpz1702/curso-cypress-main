@@ -15,7 +15,9 @@ export class LoginMethods{
     }
 
     static clickOnLoginButton(){
-        LoginElements.buttons.login.click()
+    LoginElements.buttons.login
+        .should('be.visible')
+        .click({ force: true });
     }
 
 

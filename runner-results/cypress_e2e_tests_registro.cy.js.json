@@ -4,7 +4,7 @@
   "passes": 2,
   "pending": 0,
   "failures": 0,
-  "start": "2025-05-24T15:17:04.338Z",
-  "duration": 4776,
+  "start": "2025-05-24T16:30:15.390Z",
+  "duration": 8394,
   "file": "cypress\\e2e\\tests\\registro.cy.js"
 }

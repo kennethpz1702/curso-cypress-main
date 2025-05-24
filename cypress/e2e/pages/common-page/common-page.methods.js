@@ -13,6 +13,11 @@ export class CommonPageMethods{
         CommonPageElements.topMenu.home.click()
     }
 
+    static waitForModalToClose() {
+    cy.get('#logInModal').should('not.be.visible')
+    }
+
+
     static clickOnContactOption(){
         CommonPageElements.topMenu.contact.click()
     }

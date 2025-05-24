@@ -51,6 +51,7 @@ describe(CommonPageData.testSuites.catalogoYCompras, ()=>{
 
         Logger.stepNumber(2)
         Logger.step('Navegar a la página de inicio')
+        CommonPageMethods.waitForModalToClose()
         CommonPageMethods.clickOnHomeOption()
 
         Logger.stepNumber(3)

@@ -4,7 +4,7 @@
   "passes": 3,
   "pending": 0,
   "failures": 0,
-  "start": "2025-05-24T15:16:24.204Z",
-  "duration": 36631,
+  "start": "2025-05-24T16:29:57.691Z",
+  "duration": 35879,
   "file": "cypress\\e2e\\tests\\catalogo-y-compras.cy.js"
 }
