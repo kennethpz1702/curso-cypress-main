@@ -1,3 +1,4 @@
+import { CommonPageMethods } from "../common-page/common-page.methods";
 import { CartElements } from "./cart.elements";
 
 export class CartMethos{
@@ -16,4 +17,10 @@ export class CartMethos{
     static clickOnPlaceOrderButton(){
         CartElements.buttons.placeOrder.click()
     }
+
+     /*
+    static emptyCart(username, password){
+        CommonPageMethods.navigateToDemoBlaze()
+        //Método logout: ....  
+    }*/
 }

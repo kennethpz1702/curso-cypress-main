@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2025-05-24T15:16:24.204Z",
+  "duration": 36631,
+  "file": "cypress\\e2e\\tests\\catalogo-y-compras.cy.js"
+}
