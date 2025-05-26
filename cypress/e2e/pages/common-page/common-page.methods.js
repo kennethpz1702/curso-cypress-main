@@ -14,7 +14,7 @@ export class CommonPageMethods{
     }
 
     static waitForModalToClose() {
-        cy.get('#logInModal')
+        cy.get('#logInModal').should('not.exist')
     }
 
 
