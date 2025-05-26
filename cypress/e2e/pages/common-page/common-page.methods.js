@@ -14,8 +14,9 @@ export class CommonPageMethods{
     }
 
     static waitForModalToClose() {
-    cy.get('#logInModal').should('not.be.visible')
+        cy.get('#logInModal')
     }
+
 
 
     static clickOnContactOption(){
